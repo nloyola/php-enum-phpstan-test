@@ -1,0 +1,19 @@
+{
+    "name": "nloyola/php-enum-phpstan-test",
+    "autoload": {
+        "psr-4": {
+            "PhpEnumPhpStanTest\\": "src/"
+        }
+    },
+    "require": {
+        "myclabs/php-enum": "^1.8"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.5",
+        "symfony/var-dumper": "^5.4",
+        "marc-mabe/php-enum-phpstan": "^2.0"
+    },
+    "scripts": {
+        "phpstan": "vendor/bin/phpstan analyse --no-ansi -c phpstan.neon --error-format=raw"
+    }
+}
