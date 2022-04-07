@@ -11,7 +11,9 @@
     "require-dev": {
         "phpstan/phpstan": "^1.5",
         "symfony/var-dumper": "^5.4",
-        "marc-mabe/php-enum-phpstan": "^2.0"
+        "marc-mabe/php-enum-phpstan": "^2.0",
+        "marc-mabe/php-enum": "^4.6",
+        "marc-mabe/enum-cl": "^1.0"
     },
     "scripts": {
         "phpstan": "vendor/bin/phpstan analyse --no-ansi -c phpstan.neon --error-format=raw"
